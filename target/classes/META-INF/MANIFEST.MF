@@ -1,6 +1,0 @@
-Manifest-Version: 1.0
-Built-By: Shahbaz Ahmad
-Build-Jdk: 17.0.8
-Main-Class: automationpkg.Calculator
-Created-By: Maven Integration for Eclipse
-
