@@ -21,7 +21,7 @@ public class Calculator
 	}
 	public void display()
 	{
-		System.out.println("WELCOME HOME!");
+		System.out.println("WELCOME HOME");
 	}
 	
 	
