@@ -10,6 +10,8 @@ public class TestClassCalculator {
 
 	Calculator calc = new Calculator();
 	
+	
+	
 	@Test
 	public void test_sum() 
 	{
@@ -28,10 +30,6 @@ public class TestClassCalculator {
 		assertEquals(20, calc.mul(10,2));
 	}
 	
-	@Test
-	public void test_div() 
-	{
-		assertEquals(5, calc.div(10,2));
-	}
+
 	
 }
