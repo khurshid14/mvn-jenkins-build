@@ -4,8 +4,10 @@ public class TestSonar
 {
 	public int sum(int a, int b)
 	{
-		int c = 8 + 8;
+		int c = a + b;
 		int d;
+		int e;
+		int f;
 		return c;
 	}
 	
