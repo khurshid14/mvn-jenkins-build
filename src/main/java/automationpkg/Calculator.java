@@ -24,16 +24,6 @@ public class Calculator
 		System.out.println("WELCOME MUZAFFARPUR");
 	}
 	
-	public void display2()
-	{
-		System.out.println("WELCOME BIHAR SHARIF");
-	}
-	
-	public void display3()
-	{
-		System.out.println("WELCOME VILLAGE");
-	}
-	
 	
 	public static void main(String[] args) 
 	{
