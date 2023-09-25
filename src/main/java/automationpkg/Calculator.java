@@ -24,6 +24,15 @@ public class Calculator
 		System.out.println("GFG");
 	}
 	
+	public void display2()
+	{
+		System.out.println("MUZAFFARPUR");
+	}
+	public void display3()
+	{
+		System.out.println("BIHAR");
+	}
+	
 	
 	public static void main(String[] args) 
 	{
