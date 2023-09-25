@@ -19,9 +19,19 @@ public class Calculator
 	{
 		return (a / b);
 	}
-	public void display()
+	public void display1()
 	{
-		System.out.println("WELCOME HOME");
+		System.out.println("WELCOME MUZAFFARPUR");
+	}
+	
+	public void display2()
+	{
+		System.out.println("WELCOME BIHAR SHARIF");
+	}
+	
+	public void display3()
+	{
+		System.out.println("WELCOME VILLAGE");
 	}
 	
 	
