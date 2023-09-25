@@ -19,9 +19,9 @@ public class Calculator
 	{
 		return (a / b);
 	}
-	public void display1()
+	public void display()
 	{
-		System.out.println("WELCOME MUZAFFARPUR");
+		System.out.println("GFG");
 	}
 	
 	
