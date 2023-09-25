@@ -21,6 +21,15 @@
 			<version>4.13</version>
 			<scope>test</scope>
 		</dependency>
+		
+		
+		<!--
+		https://mvnrepository.com/artifact/org.sonarsource.scanner.maven/sonar-maven-plugin -->
+		<dependency>
+			<groupId>org.sonarsource.scanner.maven</groupId>
+			<artifactId>sonar-maven-plugin</artifactId>
+			<version>3.9.0.2155</version>
+		</dependency>
 	</dependencies>
 
 
@@ -44,6 +53,20 @@
 			</plugin>
 		</plugins>
 	</build>
+
+
+	<!--https://docs.sonarsource.com/sonarqube/9.8/analyzing-source-code/scanners/sonarscanner-for-maven/ -->
+	<profiles>
+		<profile>
+			<id>sonar</id>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
+			<properties>
+				<sonar.host.url> http://localhost:9000 </sonar.host.url>
+			</properties>
+		</profile>
+	</profiles>
 
 
 </project>
