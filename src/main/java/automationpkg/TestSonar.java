@@ -5,9 +5,9 @@ public class TestSonar
 	public int sum(int a, int b)
 	{
 		int c = a + b;
-		int d;
-		int e;
-		int f;
+		int d; //for codesmells
+		int e; //for codesmells
+		int f; // for codesmells
 		return c;
 	}
 	
