@@ -32,6 +32,11 @@ public class Calculator
 	{
 		System.out.println("BIHAR");
 	}
+	public void display4()
+	{
+		System.out.println("RAMNA");
+	}
+	
 	
 	
 	public static void main(String[] args) 
@@ -42,5 +47,8 @@ public class Calculator
 		System.out.println("MUL = " +obj.mul(10, 2));
 		System.out.println("DIV = " +obj.div(10, 2));
 		obj.display();
+		obj.display2();
+		obj.display3();
+		obj.display4();
 	}
 }
